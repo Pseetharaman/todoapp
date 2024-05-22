@@ -21,5 +21,4 @@ function App() {
   )
 }
 
-// HI this comment 
 export default App
