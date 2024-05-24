@@ -25,7 +25,12 @@ export const Home = () => {
       },
       body: JSON.stringify(formData)
     })
-    console.log(await res.json());
+    const data = await res.json();
+    const {user} = data;
+
+
+    // get user id and save in context (eg: use react useContext)
+    // use navigate to route the page 
   }
   
 return (

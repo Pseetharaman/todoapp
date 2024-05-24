@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from 'react'
-import { todos } from './Container'
+import { todos } from '../App'
 
 export const Add = () => {
     const todoContext  = useContext(todos);

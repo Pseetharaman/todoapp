@@ -1,5 +1,5 @@
 import { useContext, useRef, useState } from "react"
-import { todos } from "./Container";
+import { todos } from "../App";
 
 export const Todo = ({ todo }) => {
     const [edit, setEdit] = useState(false);
